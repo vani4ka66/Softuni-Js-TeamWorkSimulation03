@@ -6,7 +6,7 @@ function startApp() {
   $("#linkHome").click(showHomeView);
   $("#linkLogin").click(showLoginView);
   $("#linkRegister").click(showRegisterView);
- 
+  $("#linkListAds").click(listAdverts);
   $("#linkLogout").click(logoutUser);
 
   // Bind the form submit buttons
