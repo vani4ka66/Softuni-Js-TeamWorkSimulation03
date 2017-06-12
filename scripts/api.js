@@ -40,7 +40,7 @@
       password: "m"
     }
   ];
-
+  //
   // User login
   $.mockjax(function (requestSettings) {
     if (requestSettings.url === "https://mock.api.com/user/kid_rk/login") {
